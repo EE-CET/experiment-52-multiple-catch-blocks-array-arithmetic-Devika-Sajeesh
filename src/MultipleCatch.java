@@ -8,12 +8,14 @@ public class MultipleCatch {
         int N = sc.nextInt();
         int[] arr = new int[N];
 
-        int index = sc.nextInt();
-        int divisor = sc.nextInt();
-
         for(int i = 0; i < N; i++) {
             arr[i] = sc.nextInt();
         }
+
+        int index = sc.nextInt();
+        int divisor = sc.nextInt();
+
+        
 
         try {
             int result = arr[index] / divisor; // Enclose array access and division in try block
